@@ -78,14 +78,16 @@ This selecting step shrinked the number of columns from 563 to 81. Leaving the n
 ## 3. Uses descriptive activity names to name the activities in the data set
 For the descriptive activity names, run_analysis.R read the activity_labels.txt file of the data and uses the pointers from the encoding integer to the descriptive activiy. It changes the names to a more human readable form, all lowercase and no underscores, such that the activities are all labeled according to this table.
 
-encoding integer | descriptive activity
---|------------------
-1 |walking
-2 |walking upstairs
-3 |walking downstairs
-4 |sitting
-5 |standing
-6 |laying
+
+| encoding integer | descriptive activity |
+|--|------------------|
+| 1 | walking |
+| 2 | walking upstairs |
+| 3 | walking downstairs |
+| 4 | sitting |
+| 5 | standing |
+| 6 | laying |
+
 
 ## 4. Appropriately labels the data set with descriptive variable names. 
 Finding descriptive variable names for the kind of features we have in the data set was really hard. They either got too long or weren't descriptive enough. I decided to go a middle kind of way and made the important parts of the names as decriptive as possible and left the rest of the names to themselves or chose small prolongings to give the reader a better understanding of what they see. <br />
