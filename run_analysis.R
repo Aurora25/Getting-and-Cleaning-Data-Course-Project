@@ -1,4 +1,7 @@
+## Author: Sanja Stegerer
+## Date: 7/27/2015
 
+# The Author of this file hereby certifies that all of the folowwing is her own work. 
 
 library(dplyr)
 
