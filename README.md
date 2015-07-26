@@ -19,7 +19,8 @@ In order to use run_analysis.R, please use the following link
 
 <https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip>
 
-to download the folders, which contain the dataset. Please unzip it and go to the directory "/getdata-projectfile-UCI\ HAR\ Dataset/UCI\ HAR\ Dataset" (if on windows, on a unix machine please adjust the backslashes and forwardslashes accordingliny) within the unzipped folder . 
+to download the folders, which contain the dataset. Please unzip it and go to the directory "/getdata-projectfile-UCI\ HAR\ Dataset/UCI\ HAR\ Dataset" (This is the path if using a unix. Be sure to check your machine, bevore copy pasting the directory and make the necessary changes according to your machine to recognize the directory correctly.) in the unzipped folder. 
+You will see the directories "train" and "test", as well as several .txt-files such as features_info.txt. Copy paste the run_analysis.R file in this directory. 
 
 You can run run_analysis.R from this directory, as it has been written to be executed from within this directory. (Please make sure, to set the directory in RStudio accordingly). <br />
 run_analysis.R will, once started, automatically load all the data into the appropriate environments in RStudio and start processing it according to the 5 stepts from the instructions and write the processed and tidy data into the file tidy_data.txt.  
