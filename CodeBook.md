@@ -102,13 +102,13 @@ the raw data vectors have been processed with the respective processing steps (a
 
 # Example features and explanation
 ### fourier.body.gyroscope.jerk.magnit.meanFreq
-The data in this column has been collected with the gyroscope. It contains only the values that can be linked to body movement and got the gravity excluded. Then the jerk vector and the magnitude of it's three dimensional data have been calculated. The resulting data got transformed by the fourier transformation and as a last step the mean frequency got obtained. 
+The data in this column has been collected with the gyroscope. It contains only the values that can be linked to body movement and got the gravity excluded. Then the jerk vector and the magnitude of it's three dimensional data have been calculated. The resulting data got transformed by the fourier transformation and as a last step the mean frequency was obtained. 
 
 ### time.body.accelerometer.mean.X.axis
-The data in this column has been collected by the accelerometer. It only contains the time domain signals of along the x axis produced by the body movement only (gravity excluded). As a final step the average has been calculated. 
+The data in this column has been collected by the accelerometer. It only contains the time domain signals along the x axis, produced by the body movement only (gravity excluded). As a final step the average has been calculated. 
 
 ### time.body.accelerometer.std.Z.axis
-The data in this column has been collected by the accelerometer. It only contains the time domain signals of along the z axis produced by the body movement only (gravity excluded). As a final step the standard deviation has been calculated. 
+The data in this column has been collected by the accelerometer. It only contains the time domain signals along the z axis, produced by the body movement only (gravity excluded). As a final step the standard deviation has been calculated. 
 
 ***
 
